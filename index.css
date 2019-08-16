@@ -1,0 +1,105 @@
+body, .list-group-item, .modal-content, .toast {
+    color: #A9B7C6;
+    background-color: #3c3f41;
+}
+
+.container {
+    background-color: #2b2b2b;
+    max-width: 100%;
+}
+
+.rounded, .toast-header {
+    background-color: #3c3f41
+}
+
+a, .ml-2.mb-1.close {
+    color: #A9B7C6;
+}
+
+h1 {
+    color: #619647
+}
+
+h2, h3, h5 {
+    color: #BBB529;
+}
+
+.color-class {
+    color: #cb772f
+}
+
+
+footer {
+    background-color: #4b4b4b;
+    height: 1px;
+}
+
+footer > div {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.card, .list-group-item {
+    background-color: #3c3f41;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+#numbers-col {
+    border-right-color: #4b4b4b;
+    background-color: #313335;
+    color: #3c3f41;
+    max-width: 3rem;
+    padding-left: 4px;
+}
+
+#numbers-col > p {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+@media (max-width: 384px) {
+    #numbers-col {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    i.fas.fa-arrow-right {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    i.fas.fa-arrow-down {
+        display: none;
+    }
+}
+
+hr {
+    color: #4b4b4b;
+    background-color: #4b4b4b;
+    height: 1px;
+    border: none;
+}
+
+#agh-logo {
+    margin-right: 1rem;
+}
+
+#contact-panel {
+    margin: 1rem
+}
+
+.toast {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+.toast-header {
+    margin: 0.5rem;
+}
