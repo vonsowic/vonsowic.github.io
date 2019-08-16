@@ -61,8 +61,14 @@ footer > div {
     line-height: 1;
 }
 
-@media (max-width: 384px) {
+@media (max-width: 576px) {
     #numbers-col {
+        display: none;
+    }
+}
+
+@media (max-width: 563px) {
+    #stackoverflow-flair {
         display: none;
     }
 }
