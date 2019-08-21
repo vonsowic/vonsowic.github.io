@@ -27,6 +27,9 @@ $(document).ready(function () {
     }
 
     $('.toast').on('hidden.bs.toast', acceptCookie);
+
+
+
 });
 
 $(window).resize(function () {
@@ -34,4 +37,27 @@ $(window).resize(function () {
     createNumberedColumn()
 });
 
+$('#experience-sabre-button').click(function () {
+    ga('send', 'event', 'experience', 'click', 'Sabre');
+});
+
+$('#experience-polsource-button').click(function () {
+    ga('send', 'event', 'experience', 'click', 'PolSource');
+});
+
+$('#contact-github').click(function () {
+    ga('send', 'event', 'contact', 'click', 'github');
+});
+
+$('#contact-linkedin').click(function () {
+    ga('send', 'event', 'contact', 'click', 'linkedin');
+});
+
+$('#contact-so').click(function () {
+    ga('send', 'event', 'contact', 'click', 'stackoverflow');
+});
+
+$('#contact-email').click(function () {
+    ga('send', 'event', 'contact', 'click', 'email');
+});
 
