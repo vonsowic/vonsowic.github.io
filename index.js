@@ -27,9 +27,6 @@ $(document).ready(function () {
     }
 
     $('.toast').on('hidden.bs.toast', acceptCookie);
-
-
-
 });
 
 $(window).resize(function () {
@@ -50,6 +47,7 @@ $('#contact-github').click(function () {
 });
 
 $('#contact-linkedin').click(function () {
+    console.log('contact-linkedin')
     ga('send', 'event', 'contact', 'click', 'linkedin');
 });
 
