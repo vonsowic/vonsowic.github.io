@@ -4,7 +4,7 @@ function createNumberedColumn() {
     const numbersColumn = $('#numbers-col');
 
     const numberOfRows = getNumberOfRows();
-    for (let i = 1; i<numberOfRows; i++) {
+    for (let i = 1; i < numberOfRows; i++) {
         const number = document.createElement('p');
         number.innerText = i;
         numbersColumn.append(number);
@@ -12,7 +12,7 @@ function createNumberedColumn() {
 }
 
 function getNumberOfRows() {
-    return Math.round($('.container').height()/15)
+    return Math.round($('.container-fluid').height()/15)
 }
 
 function acceptCookie() {
